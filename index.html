@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>TRABALHO DE JAVA</title>
+</head>
+<body>
+    <main>
+        <h1>TRABALHO DE JAVA</h1>
+        <H2>GERADOR DE PILHA/FILA</H2>
+        <p>Escolha o Tipo Desejado:
+        <label for="tipoPilha">Pilha <input type="radio" name="bPF" id="bPilha" checked></label>
+        <label for="tipoFila"> Fila <input type="radio" name="bPF" id="bFila"></label></p>
+        <label class="labelDiferente" for="addItem">Adicionar Item:<input type="number" name="addItemNumber" id="addItemNumber" > <input type="button" value="Adicionar" onclick="Push()"></label>
+        <label class="labelDiferente" for="rmvitem">Remover Item:<input type="button" value="Remover"onclick = "Pop()">
+
+        <div id="res">
+
+
+        </div>
+    </main>
+
+    <script src="codigo.js"></script>
+</body>
+</html>
